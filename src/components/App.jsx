@@ -15,7 +15,7 @@ function App() {
 
       {notes.map((noteItem) => <Note
         key={noteItem.key}
-        title={noteItem.tite}
+        title={noteItem.title}
         content={noteItem.content}
       />
       )}
